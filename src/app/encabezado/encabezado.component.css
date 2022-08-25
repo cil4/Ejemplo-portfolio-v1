@@ -1,0 +1,137 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+header {
+  background-color: #353738;
+
+  padding: 12px 0;
+  height: 15vh;
+}
+img {
+  padding-bottom: 3rem;
+}
+.menu {
+  margin-top: 12px;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+.menu ul li {
+  list-style: none;
+
+  display: inline-block;
+  margin-left: 24px;
+}
+i {
+  font-size: 2rem;
+  color: white;
+}
+i:hover {
+  color: #f0e100;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+section{
+  height: 70%;
+  border: #0b3c49;
+}
+.card{
+  margin: 0.5rem 2rem;
+  width: 95%;
+  height: 40%;
+  
+}
+
+.wrapper{
+  width: 95%;
+  height: 80vh;
+  
+  background-color: #353738;
+}
+.img-background{
+background-image: url(../../assets/espejismo-azul-morado-3840x2160.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+  background-clip: padding-box;
+  height: 50vh;
+  width: 100%;
+ 
+}
+.perfil{
+  position: absolute;
+  top:22rem;
+  left: 5rem;
+ }
+@media only screen and (max-width: 999px) {
+  header {
+    height: 12vh;
+  }
+  .card{
+    width: 95%;
+    z-index: -2;
+    padding-right: 3.5rem;
+  }
+  img {
+    padding-bottom: 4rem;
+  }
+  .menu {
+    position: fixed;
+    right: -115px;
+    top: 58px;
+    width: 120px;
+    height: 100%;
+    background-color: #0b3c49;
+    animation: none;
+  }
+  .menu ul li {
+    display: block;
+    text-align: left;
+    
+    margin: 0;
+    padding: 10px 0 10px 50px;
+    border-bottom: 1px solid #1d9fc3;
+  }
+  .menu-icon{
+      display: inline-block;
+      position: relative;
+      right: 0;
+      top: 20px;
+      cursor: pointer;
+  }
+  .menu-icon span {
+    width: 32px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    transition: 0.2s ease-in-out;
+    
+   
+  }
+  .menu-icon span:nth-child(2) {
+    margin: 4px 0;
+  }
+  .menu_icon_Class span:nth-child(2){
+        display: none;
+  }
+  .menu_icon_Class span:nth-child(1){
+      transform: rotate(40deg);
+  }
+  .menu_icon_Class span:nth-child(3){
+    transform: rotate(-40deg);
+    margin-top: -3px;
+
+}
+  .menuClass{
+      right: 0;
+      transition: 0.4s ease-in-out;
+      
+  }
+}
+@media only screen and (max-width: 800px) {
+  .menu-icon{
+    top: 2rem;
+position: absolute;
+right: 1rem;
+  }
+  
+}

@@ -1,0 +1,32 @@
+
+.card{
+    background-image: url(../../assets/pexels-yasin-gündogdu-2644734.jpg);
+    background-color: rgb(0,0,0);
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+}
+
+
+.row{
+  padding: 1.5em;
+  width: fit-content;
+  flex-direction: row;
+  
+}
+.row > .col-md-6, .col-sm-6{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7rem;
+    }
+button{
+  left: 45%;
+ 
+  
+}
+@media(max-width:575px){
+  button{
+     
+      transform: translateX(-30%); 
+  }
+}

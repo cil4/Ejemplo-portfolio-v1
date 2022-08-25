@@ -1,0 +1,76 @@
+button{
+    
+    margin-bottom: 0.5rem;
+    left: 40%;
+    margin-top: 1.5em;
+    padding: 0.5rem;
+    
+    
+  }
+div{
+    background-image: url(../../assets/pexels-yasin-gündogdu-2644734.jpg);
+    background-color: black;
+    opacity: 0.9;
+}
+@media(max-width:575px){
+    button{
+       
+        transform: translateX(-30%); 
+    }
+}
+
+.row{
+    display: inline-flex;
+    
+}
+
+
+.card{
+    background-color: #1e1f22;
+    color: white;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+    letter-spacing: 2px;
+}
+#sub{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.card-text{
+    
+    padding: 1em;
+    width: fit-content;
+    letter-spacing: 2px;
+    
+}
+.card-body{
+    hyphens: auto;
+    text-align: justify;
+}
+#B{
+    float: left;
+}
+#A{
+    float: right;
+}
+a:hover{
+    background: #c501e2;
+    box-shadow: 0 0 5px #c501e2, 0 0 25px #c501e2, 0 0 50px #c501e2, 0 0 200px #c501e2;
+}
+@media(max-width:576px){
+    a{
+        transform: translateX(50%);
+        margin-right: 6.5em;
+        margin-top: 1.5em;
+    }
+    .row{
+        gap: 12px;
+    }
+}
+.container{
+    padding-bottom: 0.5rem;
+}

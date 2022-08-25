@@ -1,0 +1,19 @@
+<header>
+    <div class="container">
+    
+      <div class="timeline" [ngStyle]="{'color':'white'}">
+        <ul>
+          <li  *ngFor="let item of educacion">
+            <div class="timeline-content">
+              <h3 class="date">{{item.start}} - {{item.end}}</h3>
+              <h1>Curso: {{item.title}} </h1>
+              <p>Organizador: {{item.school}}</p><img src ="assets/index.png" alt="logo-institucion" width="60" height="60" style="border-radius: 50%"/>
+                <p>Area: {{item.career}}</p>
+            </div>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+    </header>
+    

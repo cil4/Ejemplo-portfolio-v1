@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: 0;
+    padding-bottom: 1.5em;
+   background-image: url(./assets/pexels-yasin-gündogdu-2644734.jpg);
+
+}
+
+  

@@ -1,0 +1,104 @@
+
+/*mat-toolbar{
+  display:inline-flex;
+}
+.navbar{
+   justify-content: space-between;
+   height: 20%;
+}
+.fondo{
+    position: relative;
+    border-width: medium;
+    border: dashed;
+  }
+  .container{
+    
+    box-sizing: content-box;
+    width: 20%;
+   
+    
+    position: absolute;
+    z-index: 2;
+    
+    top: 20em;
+    left: 6em;
+    border: dashed;
+  }
+  #perfil{
+    
+    border-radius: 50%;
+    border: beige;
+    border-width: medium;
+    border-style: solid;
+    border: dashed;
+  
+  }
+  #mini-bio{
+   
+    float:inline-start;
+    text-align: center;
+    margin-left: 1.5em;
+    border: dashed;
+    
+  }
+  
+  a{
+    margin-right: 2.5rem;
+   border-radius: 50%;
+  } 
+  a:hover{
+    background: #c501e2;
+    box-shadow: 0 0 5px #c501e2, 0 0 25px #c501e2, 0 0 50px #c501e2, 0 0 200px #c501e2;
+  }
+  /*app-social{
+    position: absolute;
+    left: 65rem;
+    top:1em;
+    bottom:0.5em
+  }  
+.mat-fab{
+  right: 1.5em;
+  bottom: 0.5em;
+}
+.mat-fab:hover{
+  background: #c501e2;
+  
+  box-shadow: 0 0 5px #c501e2, 0 0 25px #c501e2, 0 0 50px #c501e2, 0 0 200px #c501e2;
+}
+
+app-logo:hover{
+  
+  background: #c501e2;
+  box-shadow: 0 0 10px 10px #c501e2;
+  /*
+  box-shadow: 0 0 5px #c501e2, 0 0 25px #c501e2, 0 0 50px #c501e2, 0 0 200px #c501e2; 
+  
+}
+
+@media(max-width:580px){
+  
+  #social{
+    
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    
+  } 
+ 
+
+  
+
+ .navbar{
+    height: 16vh;
+    bottom:2.2rem;
+   
+    
+  }
+ #left{
+  position: absolute;
+  top:10%;
+  left: 20%;
+ }
+  
+}
+*/

@@ -1,0 +1,37 @@
+<div class="container-fluid" id="experiencia" >
+   
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 p-4" style="text-align: center; font-weight: bold; font-size: 2rem; color: white;">
+        <button mat-raised-button color="primary"> <b>Experiencia laboral </b> <i class="fa-solid fa-briefcase"></i></button>
+      </div>
+    </div>
+    <br/>
+    <div class="row" *ngFor="let item of experiencia">
+      <div class="col-sm-12 col-md-9 col-lg-9  p-4">
+        
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3  p-2" style="text-align: center;"><b>Area: </b>
+            <div class="col-12  p-2">
+                {{item.area}}
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-9 col-lg-9 p-2" style="text-align: center;"><b>Descripción de tareas: </b>
+            <div class="col-12  p-2">
+              {{item.description}}
+              </div> 
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3  p-4" style="text-align: center;">Empresa o Institución
+        <div class="row">
+            <div class="col-12  p-2">
+                <img alt="imagen-logo" src="assets/index.png" width="60" height="60" style="border-radius: 50%"> {{item.institucion}}
+            </div>
+            <div class="col-12  p-2" id="periodo">
+              <b>Período:</b> {{item.periodo}}
+              </div>
+          </div>
+      </div>
+    </div>
+    <hr>
+    

@@ -1,0 +1,49 @@
+
+.container-fluid{
+    padding: 1em;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 2em;
+    padding-bottom:1em
+
+    
+}
+.col-lg-12, .col-lg-9, .col-lg-3{
+    background-color: #1e1f22;
+    opacity: 0.9;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+#periodo{
+    background-color: #480ca8;
+    opacity: 0.9;
+    color: white;
+}
+button{
+    font-size: 2rem;
+
+}
+@media(max-width:575px){
+    button{
+       
+       margin-left: auto;
+       margin-left: auto;
+       font-size: 1rem;
+       
+    }
+    .col-sm-12{
+        color: white;  
+    
+        
+    }
+    button{
+       
+      transform: translateX(-20%, -20%); 
+      font-size: 1.3rem;
+      width: 90%;
+    }
+        
+}

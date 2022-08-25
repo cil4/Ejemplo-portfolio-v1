@@ -1,0 +1,25 @@
+<div id="proyecto">
+    <button mat-raised-button color="primary" style="font-size: 2rem;"> Proyectos  <mat-icon>rocket</mat-icon></button>
+    <div class="container" >
+        <div class="row m-5" >
+          <div class="col-sm-12 col-md-12 col-lg-4" *ngFor="let proyecto of proyectosLista">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Proyecto I</h5>
+                <p id="sub">{{proyecto.name}}</p>
+                <br />
+                <p class="card-text">
+                  {{proyecto.description}}
+                </p>
+              </div>
+              <div class="card-footer">
+                <a mat-raised-button color="primary" id="B"
+                  >{{proyecto.date}} <i class="fa fa-calendar"></i
+                ></a>
+                <a mat-raised-button color="primary" href={{proyecto.link}} id="A" target="_blank"
+                  >Ver proyecto <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+</div>

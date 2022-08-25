@@ -1,0 +1,28 @@
+
+.container{
+  
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ .container #mini-bio{
+   
+    float:inline-start;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 2.5em;
+    
+  }
+  #foto{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 12rem;
+    height: 12rem;
+    margin: 0 auto;
+    
+  }
+   
+  
+  
